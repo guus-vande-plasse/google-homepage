@@ -1,0 +1,1 @@
+This folder holds the files that are associated with the google homepage project
