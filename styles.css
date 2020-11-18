@@ -1,0 +1,27 @@
+
+.center {
+    position: absolute;
+    top: 250px;
+    left:50%;    
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    left: 80%;
+  }
+  li{
+      float: left;
+  }
+
+  a {
+    display: block;
+    padding: 8px;
+    text-decoration:none
+    /* background-color: #dddddd; */
+  }
+  a:hover{
+    text-decoration:underline;
+  }
