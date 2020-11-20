@@ -5,14 +5,14 @@
     left:50%;    
     
 }
-ul {
+.top {
     list-style-type: none;
     margin: 0;
     padding: 0;
     position: absolute; 
     left: 80%;
   }
-  li{
+ .nav {
       float: left;
   }
 
@@ -24,4 +24,28 @@ ul {
   }
   a:hover{
     text-decoration:underline;
+  }
+  GoogleAuthenticated {
+      border-radius: 50%;
+  }
+  .bottomLeft{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 10px; 
+  }
+  .footerItemLeft{
+      float:left;
+  }
+  .bottomRight{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 10px;
+    left: 80%; 
+  }
+  footerItemRight{
+      float: right;
   }
